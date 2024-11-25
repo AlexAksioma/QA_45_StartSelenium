@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b8cde0-3d8c-4b45-9cd1-3346ee2bbaf1" name="Changes" comment="created tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" afterDir="false" />
+    <list default="true" id="e2b8cde0-3d8c-4b45-9cd1-3346ee2bbaf1" name="Changes" comment="created XPathSelectors">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ILCarroXPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,31 @@
     "last_opened_file_path": "C:/QA_Auto_Projects/QA_45/QA_45_StartSelenium"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.SelectorsCss.elementsHeaderIlCarro">
+  <component name="RunManager" selected="Gradle.ILCarroXPath.typeRegForm">
+    <configuration name="ILCarroXPath.typeRegForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ILCarroXPath.typeRegForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SelectorsCss.elementsHeaderIlCarro" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,8 +159,34 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="XPathSelectors.methodXPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.XPathSelectors.methodXPath&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ILCarroXPath.typeRegForm" />
+        <item itemvalue="Gradle.XPathSelectors.methodXPath" />
         <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
         <item itemvalue="Gradle.StartTests.firstTest" />
         <item itemvalue="Gradle.StartTests.secondTest" />
@@ -160,11 +210,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732007699753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created XPathSelectors">
+      <option name="closed" value="true" />
+      <created>1732214329591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732214329591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="created tests" />
+    <MESSAGE value="created XPathSelectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="created XPathSelectors" />
   </component>
 </project>
